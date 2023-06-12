@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Carlos Henrique - Software developer</h1>
+    <hr>
+    <h1>Unidades de medidas relativas(fontes)</h1>
+    <h1>1.Aqui ocorre a especificidade(exemplo_1: permanece fixo; exemplo_2 altera de tamanho;)</h1>
+    <div class="container_1">
+        <p class="exemplo_1">Esse é o exemplo_1 com font-size 40px</p>
+        <p class="exemplo_2">Esse é o exemplo_2 sendo alterado pela div com font-size 60px</p>
+    </div>
+    <p class="exemplo_3">Esse é o exemplo_3 sem parâmetro</p>
+    <hr>
+    <h1>2.Aqui ocorre 2x o tamanho que aquele elemento deveria ter naturalmente(em)</h1>
+    <div class="container_2">
+        <p class="exemplo_4">Esse é o exemplo_4 sendo declarado pela div com font-size 25px</p>
+        <p class="exemplo_5">Esse é o exemplo_5 sendo alterado com font-size 2em</p>
+    </div>
+    <p class="exemplo_6">Esse é o exemplo_6</p>
+    <hr>
+    <h1>3.Aqui ocorre a mudança dos valores de acordo com seu elemento raiz(rem)exemplo: foi criado outra div pai com parametro de 20px e a div filha com 15px.</h1>
+    <div class="div">
+        <div class="container_3">
+            <p class="exemplo_7">Esse é o exemplo 7 com 2em</p>
+            <p class="exemplo_8">Esse é o exemplo 8 com 2 rem</p>
+        </div>
+        <p class="exemplo_9">Esse é o exemplo 9 com 2rem</p>
+    </div>
+</body>
+</html>

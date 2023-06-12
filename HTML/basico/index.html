@@ -1,0 +1,279 @@
+<!DOCTYPE html><!--tipo do documento-->
+<html lang="pt-BR"><!--documento em si-->
+<head><!--cabeçalho do documento-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site html</title>
+</head>
+<body><!--corpo do documento-->
+    <h1>Conteúdo aprendido(HTML) - Carlos Henrique - Software developer</h1>
+    <hr>
+    <!--Títulos-->
+    <h1>Títulos</h1>
+    <h1>Esse é meu titulo h1</h1>
+    <h2>Esse é meu título h2</h2>
+    <h3>Esse é meu título h3</h3>
+    <h4>Esse é meu título h4</h4>
+    <h5>Esse é meu título h5</h5>
+    <h6>Esse é meu título h6</h6>
+    <hr>
+    <!--Parágrafos-->
+    <h1>Parágrafo</h1>
+    <p>Aqui está o parágrafo!</p>
+    <hr>
+    <!--Formatação-->
+    <h1>Formatação</h1>
+    <p>O elemento <b>"b"</b> ou <strong>"strong"</strong>  é geralmente usado para  <b> destacar</b> palavras-chaves em um resumo, nomes de 
+        produtos em um comentário ou outros vãos de texto cuja a apresentação típica seria negrito.
+    </p>
+    <p>
+        A tag "i" ou "em" pode representar uma parte do texto com uma diferença 
+        semântica, na qual a representação <em>tipográfica</em>  padrão é no tipo <i>itálico</i>.
+    </p>
+    <p>
+        O Elemento "mark" representa <mark>um trecho de destaque em um texto</mark>, por exemplo, 
+        uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular. 
+    </p>
+    <p>
+        O elemento "small" representa comentários laterais e letras <small>pequenas</small>, como direitos 
+        autorais e texto legal, independentemente de sua apresentação estilizada.
+    </p>
+    <p>
+        O elemento "sup" especifica o <sup>texto</sup> embutido que deve ser exibido como sobrescrito(elevado)
+        apenas por motivos tipográficos.
+    </p>
+    <p>
+        O elemento "del" (ou Elemento HTML de Texto Excluído) representa uma parte do texto que 
+        foi <del>excluída</del> de um documento.
+    </p>
+    <p>
+        O elemento "ins" (ou Inserted Text ) representa um intervalo de texto que foi <ins>adicionado</ins> a um documento(sublinhado).
+    </p>
+    <hr>
+    <!--Quebra de linhas-->
+    <h1>Quebra de linhas</h1>
+    <p>
+        <h2>Texto normal: </h2>
+        O elemento "br" (ou Breack Line) produz uma quebra de linha em um texto. É útil para escrever poemas ou um endereço, onde a divisão de linha é significante.
+        <h2>Texto com quebra de linha: </h2>
+        O elemento "br" (ou Breack Line) produz uma <br>
+        quebra de linha em um texto. É útil para escrever poemas <br>
+        ou um endereço, onde a divisão de linha é significante. <br>
+    </p>
+    <hr>
+    <!--Links-->
+    <h1>Minha página principal - Links</h1>
+
+    <a href="pagina_1.html">Link para página 1</a>
+    <br> 
+    <a href="pagina_2.html">Link para página 2</a>
+    <hr>
+    <!--Imagens-->
+    <h1>Minha página - Imagens</h1>
+    Exemplo 1: img src="https://araras.com/imagem_da_arara.jpeg" alt="arara" (de um site especifico)
+    <br>
+    <img src="https://t.ctcdn.com.br/5XPASDBUosgmBv5Ptpxcd6eTJso=/512x288/smart/filters:format(webp)/i257652.jpeg" alt="arara">
+    <br>
+    Exemplo 2: img src="/img/zebra.jpg" alt="zebra" (pela propria maquina com img baixada)
+    <br>
+    <img src="./img/zebra.jpg" alt="zebra">
+    <br>
+    <br>
+    Tamanho original da foto do sonic:
+    <br>
+    <img src="./img/sonic.png" alt="sonic">
+    <br>
+    Usando somente width="200" no sonic:
+    <br>
+    <img src="./img/sonic.png" alt="sonic" width="200">
+    <br>
+    Usando somente heigh="200" no sonic:
+    <br>
+    <img src="./img/sonic.png" alt="sonic" height="200">
+    <br>
+    Usando width="200"e"heigh="200" no sonic:(mudando a proporção)
+    <br>
+    <img src="./img/sonic.png" alt="sonic" width="200" height="200">
+    <hr>
+    <!--Figure-->
+    <h1>Minha página - Figure(Imagem com legenda) </h1>
+    <figure>
+        <img src="./img/vulcao.jpeg" alt="vulcao">
+        <figcaption>Vulcão entrando em erupção. Usa-se o a tag "figcaption" dentro de "figure" para inserir a legenda </figcaption>
+    </figure>
+    <hr>
+    <!--Hierarquia de pastas-->
+    <h1>Minha página - Hierarquia de pastas</h1>
+    <a href="./divertidamente.html">Link para fotos</a>
+    <hr>
+    <!--Listas-->
+    <h1>Lista não ordenada - ul</h1>
+    <ul>
+        <li>Arroz</li>
+        <li>Feijao</li>
+        <li>ovo frito</li>
+    </ul>
+    <h1> Lista ordenada - ol</h1>
+    <ol>
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <h3>Usando o atributo "reversed"(conta do último ao primeiro) na lista</h3>
+    <ol reversed>
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <h3>Usando o atributo "start"(conta a partir do numero escolhido crescente) na lista </h3>
+    <ol start="10">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <h3>Usando o atributo "reversed" e "start" juntos(descrescente) </h3>
+    <ol reversed start="10">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <h3>Usando o atributo "type"(A, a, I, i) maiúsculo, minúsculo e romanos </h3>
+    <ol type="A">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <ol type="a">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <ol type="I">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <ol type="i">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <h3>Usando o atributo "type" e "start" juntos(A=1, B=2, C=3... ou I=1, II=2, III=3...) </h3>
+    <ol type="A" start="3">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <ol type="I" start="3">
+        <li>Treinar o que aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <hr>
+    <!--Lista de contatos - Links -->
+    <h1>Lista de contatos - Links</h1>
+    <ul>
+        <h2>Usando somente a hef=""(o link será carregado na mesma página) </h2>
+        <li><b>Nome:</b> Carlos Henrique <br>
+            <b>Site: </b><a href="https://github.com/carlorique">github.com/carlorique</a>
+        </li>
+        <br>
+        <h2>Usando a hef="" e target="_blank" juntos(o link será carregado em uma nova aba) </h2>
+        <li>
+            <b>Nome:</b> Kassia Luiza <br>
+            <b>Tel: </b><a href="tel:+5592994624418" target="_blank">+559299461441</a>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Luiz Machado <br>
+            <b>Whatsapp: </b><a href="http://wa.me/5592991191144" target="_blank">+5592991191144</a>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Werley Rose <br>
+            <b>E-mail: </b><a href="mailto:werley34rose@gmail.com" target="_blank">werley34rose@gmail.com</a>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Maria das Graças <br>
+            <b>Instagram: </b><a href="https://www.instagram.com/marya_valentina13/" target="_blank">@marya_valentina13</a>
+        </li>
+    </ul>
+    <hr>
+    <!--Div-->
+    <h1>Minha página com div - Agrupar elementos</h1>
+    <h2>Melhores filmes de terror</h2>
+    <!--Criando id e atribuindo à link(identificador)-->
+    <div id="sumario_filmes">
+        <h3>Sumário</h3>
+        <a href="#host">1</a>
+        <a href="#entidade">2</a>
+        <a href="#sobrenatural">3</a>
+    </div>
+    <div id="host">
+        <h3>1.Host-Cuidado com quem chama</h3><a href="#sumario_filmes">Voltar</a>
+        <figure>
+            <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/02/host_o_filme_de_terror_mais_assustador_do_mundo_nerdbunker__wv10733-760x428.jpg" alt="foto_filme_host">
+            <figcaption><i>Amigas se reúnem em Cuidado com Quem Chama (Divulgação/Shadowhouse Films)</i></figcaption>
+            <!--Inserindo a tag <p> dentro de <figure>-->
+            <p>
+                Começando pelo filme de 2020, <b>Cuidado com Quem Chama</b> (ou <i>Host</i>) é uma produção de <br>
+                baixo orçamento gravada inteiramente via Zoom durante a pandemia. A história do <br>
+                filme de <b>Rob Savage</b> acompanha um conjunto de amigas entediadas, que decidem <br>
+                fazer uma sessão espirita em um cenário muito familiar à rotina contemporânea: uma <br>
+                reunião por videochamada. Precisa dizer que as coisas obviamente saem do controle? <br>
+            </p>
+            <p>
+                Host foi definido como o mais assustador pelo ranking Ciência do Medo, gerando um <br>
+                pico de 130 batimentos cardíacos por minuto e frequência média de 88 BPM. <br>
+                A produção está disponível para alugar na <a href="https://www.apple.com/br/apple-tv-app/" target="_blank">Apple TV</a>. <br>
+            </p>
+        </figure>
+    </div>
+    <div id="entidade">
+        <h3>2.A entidadade</h3><a href="#sumario_filmes">Voltar</a>
+        <figure>
+            <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/02/a_entidade_filme_de_terror_mais_assustador_do_mundo_nerdbunker__0t6jf0y-760x428.jpg" alt="foto_filme_a-entidade">
+            <figcaption><i>Ethan Hawke em cena de A Entidade (Divulgação/Blumhouse Productions)</i></figcaption>
+        </figure>
+        <!--Inserindo a tag <p> fora de <figure>-->
+        <p>
+            <a href="https://jovemnerd.com.br/bunker/tag/a-entidade/" target="_blank">A Entidade</a> é uma produção de 2012 que conta com a direção de
+            <b>Scott Derrickson</b>(<i> Doutor Estranho</i>)<br>
+            e <b>Ethan Hawke</b>(<i>Dia de Treinamento</i>) em seu elenco. A história segue a seguinte premissa: o <br>
+            escritor Ellison (Hawke) se muda para uma casa isolada com a família. Ao se deparar <br>
+            com imagens macabras, ele logo descobre que a entidade maligna Bughuul está <br>
+            colocando a sua vida — e de sua esposa e filhos — em perigo. <br>
+        </p>
+        <p>
+            A produção, que gera um clima de tensão e medo constante, rendeu um jump scare de 130 BPM e <br>
+            frequência média de 86 batimentos por minutos no estudo. E ai, encara? O filme está <br>
+            disponível no <a href="https://globoplay.globo.com/" target="_blank">Globoplay</a>. <br>
+        </p>
+    </div>
+    <div id="sobrenatural">
+        <h3>3.Sobrenatural</h3><a href="#sumario_filmes">Voltar</a>
+        <figure>
+            <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/02/sobrenatural_filme_de_terror_mais_assustador_do_mundo_nerdbunker__s8nug2-760x507.jpg" alt="foto_filme_sobrenatural">
+            <figcaption><i> Patrick Wilson em maus bocados no filme (Divulgação/Blumhouse Productions)</i></figcaption>
+        </figure>
+        <p>
+            E lá vamos nós com <a href="https://pt.wikipedia.org/wiki/James_Wan" target="_blank">James Wan</a> (<i>Jogos Mortais</i>) na lista. Um dos maiores nomes do terror atualmente, o <br>
+             cineasta dirigiu <a href="https://www.adorocinema.com/filmes/filme-182603/" target="_blank">Sobrenatural</a>, em 2011, dando origem a uma franquia de sucesso – o 5º capítulo da <br>
+             série de filmes chega aos cinemas em julho de 2023. <br>
+        </p>
+        <p>
+            Pois bem, no filme, o professor Josh Lambert (<b>Patrick Wilson</b>), sua esposa Renai (<b>Rose Byrne</b>) e os <br>
+            filhos Foster, Dalton e Cali mudam para uma nova casa. Ao se deparar com uma entidade, Dalton <br>
+            entra em coma. Os pais, assustados, decidem se mudar do lugar, contudo, a maldição continua <br>
+            a persegui-los. <br>
+        </p>
+        <p>
+            Sim, é o clássico filme de criança com o tinhoso no corpo – ou seja, assustador demais. Rendeu <br>
+            pico de 133 batimentos por minuto e frequência de 85 BPM no estudo da Broadband Choices. <br>
+            Para os interessados, a obra está disponível no <a href="https://www.hbomax.com/br/pt" target="_blank">HBO Max</a>. <br>
+        </p>
+    </div>
+</body>
+</html>

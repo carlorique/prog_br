@@ -1,0 +1,54 @@
+#b_1{
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 30px;
+}
+#b_2{
+    height: 100px;
+    border-width: 5px;
+    border-style: dotted;
+    font-size: 30px;
+}
+#b_3{
+    height: 100px;
+    border-width: 5px;
+    border-style: dashed;
+    font-size: 30px;
+}
+#b_4{
+    height: 135px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    font-size: 30px;
+}
+#b_5{
+    height: 135px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red green;
+    font-size: 30px;
+}
+#b_6{
+    height: 135px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red green blue yellow;
+    font-size: 30px;
+}
+#b_7{
+    height: 135px;
+    border-width: 5px 10px 15px 20px;
+    border-style: solid;
+    border-color: red green blue yellow;
+    font-size: 30px;
+}
+#b_8{
+    height: 105px;
+    background-color: orange;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    
+}

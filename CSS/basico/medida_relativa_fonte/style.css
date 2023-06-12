@@ -1,0 +1,41 @@
+.container_1{
+    font-size: 60px;
+}
+.exemplo_1{
+    font-size: 40px;
+}
+.exemplo_2{
+    color: blue;
+}
+.exemplo_3{
+    color: red;
+}
+/*------------------*/
+.container_2{
+    font-size: 25px;
+}
+.exemplo_4{
+    color: blue;
+}
+.exemplo_5{
+    font-size: 2em;
+}
+.exemplo_6{
+    color: red;
+}
+/*------------------*/
+.container_3{
+    font-size: 15px;
+}
+.exemplo_7{
+    font-size: 2em;
+}
+.exemplo_8{
+    font-size: 2rem;
+}
+.exemplo_9{
+    font-size: 2rem;
+}
+.div{
+    font-size: 20px;
+}
