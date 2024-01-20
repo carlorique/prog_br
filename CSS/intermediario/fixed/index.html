@@ -2,31 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Position static relative</title>
+    <title>Fixed</title>
     <style>
         .quadrado{
             width: 100px;
             height: 100px;
-
         }
         .quadrado-red{
             background-color: red;
         }
         /*alteracoes feitas aqui*/
         .quadrado-blue{
-            position: relative;
+            position: fixed;
+            bottom: 500px;
+            right: 0px;
             background-color: blue;
-            left: 400px;
-            top: 100px;
-
         }
         .quadrado-green{
             background-color: green;
         }
         /*alteracoes feitas aqui*/
         .quadro{
-            width: 800px;
-            height: 400px;
+            position: relative;
+            width: 500px;
+            height: 2000px;
             border: 1px solid gray;
         }
     </style>
@@ -34,8 +33,8 @@
 <body>
     <div class="quadro">
         <div class="quadrado quadrado-red"></div>
-        <div class="quadrado quadrado-green"></div>
         <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
     </div>
 </body>
 </html>
